@@ -1,0 +1,8 @@
+streamlit
+tensorflow
+googlemaps
+google-generativeai
+folium
+streamlit-folium
+Pillow
+streamlit-js-eval
