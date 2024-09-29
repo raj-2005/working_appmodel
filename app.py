@@ -9,7 +9,6 @@ from streamlit_js_eval import get_geolocation
 import google.generativeai as genai
 
 # Set up API keys (use secrets management in production)
-openai.api_key = st.secrets["OPENAI_API_KEY"]
 gmaps = googlemaps.Client(key=st.secrets["GOOGLE_MAPS_API_KEY"])
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
