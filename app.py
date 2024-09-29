@@ -9,8 +9,8 @@ from streamlit_js_eval import get_geolocation
 import google.generativeai as genai
 
 # Set up API keys (use secrets management in production)
-gmaps = googlemaps.Client(key=st.secrets["GOOGLE_MAPS_API_KEY"])
-genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
+gmaps = googlemaps.Client("AIzaSyBZ54CrwbNjBiKKs-4NydriYQTp0yEGFlM")
+genai.configure("AIzaSyA8CHnU_1P-UMjwR9bK9Fn77zmymPNXC5Y")
 
 # Load the model
 model = load_model('weights.h5')
