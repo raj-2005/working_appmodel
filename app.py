@@ -1,5 +1,4 @@
 import streamlit as st
-import openai
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
 from PIL import Image
